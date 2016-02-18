@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DateActivity" >
+<ImageView
+        android:id="@+id/backarrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="8dp"
+        android:src="@drawable/arrow_red" />
+   
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+         android:textColor="@android:color/black"
+        android:text="@string/date_label_set"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#dd5201"
+         android:textColor="@android:color/white"
+        android:onClick="setDate"
+        android:text="@string/date_button_set" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="15dp"
+        android:textColor="#dd5201"
+        android:text="@string/date_view_set"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_margin="10dp"
+       android:textColor="#00c6c6"
+        android:text="@string/date_selected"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

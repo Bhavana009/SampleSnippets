@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+   <ImageView
+        android:id="@+id/backarrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/arrow_red" />
+    <GridView
+         android:numColumns="3"
+         android:gravity="center"
+         android:columnWidth="100dp"
+         android:horizontalSpacing="2dp"
+         android:verticalSpacing="2dp"
+         android:stretchMode="columnWidth"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:id="@+id/grid"
+         />
+ 
+</LinearLayout>
